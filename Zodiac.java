@@ -24,7 +24,7 @@ public class Zodiac
 	{
 		int year;
 
-		System.out.println("Enter a year: ");
+		System.out.print("Enter a year: ");
 		year = in.nextInt();
 		System.out.println(animal[Math.abs(year%12)]);
 	}
